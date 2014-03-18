@@ -113,7 +113,6 @@ class SomeClass < OptionClass
 
   def each(&blk)
     blk.call(get)
-
     nil
   end
 
